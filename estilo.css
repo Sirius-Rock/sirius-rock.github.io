@@ -1,0 +1,50 @@
+@font-face {
+    font-family: Posterama;
+    src: url('font/1466c60304095118702da085a528ac38.ttf');
+}
+
+body{
+    background-image: url('img/Cielo estrellado 4k.jpg');
+    background-color: #cccccc;
+    background-position: center;
+    background-size: cover;
+    color: lightslategray;
+    font-family: Posterama;
+}
+
+h1{
+    color: lightblue;
+    font-family: Posterama;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+h2{
+    margin-left: 50px;
+    margin-top: 0px;
+}
+
+p{
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    color: lightcyan;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
+}
+
+.titulo{
+    color: #ffffff95;
+    font-size: 800%;
+    font-family: Posterama;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+    height: 200px;
+}
+
+.titulo > div{
+    margin-top: 20px;
+}
+
