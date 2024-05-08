@@ -93,8 +93,8 @@ footer{
 }
 
 .instagram-logo {
-    width: 30px; /* Ajusta el ancho según sea necesario */
-    height: auto; /* Mantén la proporción de aspecto */
+    width: 30px;
+    height: auto;
     margin-left: 15px;
     margin-right: 15px;
     opacity: 0.6;
