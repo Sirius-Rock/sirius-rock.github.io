@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: black;
+    background-image: linear-gradient(to bottom, rgb(14, 8, 34), rgb(20, 13, 26), rgb(23, 23, 49));
 }
 
 .contenedor{
@@ -17,16 +17,16 @@ body{
 }
 
 .contenedor::before{
-    background-image: url('img/Cielo estrellado 4k.jpg');
+    /*
+    background-image: url('img/Cielo estrellado 4k girado.jpg');
     background-position: center;
-    background-size: cover;
+    background-size: 100% auto;
     filter: blur(5px);
+    */
     position: absolute;
     content: '';
-    top: 0;
-    left: 0;
-    width: 100%;
     height: 100%;
+    width: 100%;
     z-index: -1;
 }
 
