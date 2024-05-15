@@ -131,6 +131,7 @@ a{
     text-decoration: none;
 }
 
+/* Caja desplegable de Letra */
 details {
     border: 0;
     border-radius: 4px;
@@ -143,10 +144,9 @@ details {
 }
 
 details[open]{
-    width: 80%;
+    width: calc(100vw - 120px);
     border: 2px solid rgba(243, 243, 243, 0.533);
     background-color: #ffffff12;
-
 }
 
 summary {
@@ -156,6 +156,7 @@ summary {
     font-size: 150%;
 }
 
+/* Letras */
 h4{
     font-family: 'Trebuchet MS';
     font-weight: normal;
